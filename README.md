@@ -1,4 +1,4 @@
-## Proffys
+## Proffy
 
 ![](https://github.com/gabrielCesarino/proffy-react/blob/master/github/logo.PNG)
 
