@@ -1,6 +1,8 @@
-##Proffys
+## Proffys
 
+![Proffys Logo](https://github.com/gabrielCesarino/proffy-react/github/logo.png)
 
+![Search Teachers Demo](github/teacher-search.gif)
 
 Responsible Web Application in order to connect teachers and students to schedule classes.
 
