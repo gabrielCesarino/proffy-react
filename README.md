@@ -1,6 +1,6 @@
 ## Proffys
 
-![Proffys Logo](https://github.com/gabrielCesarino/proffy-react/github/logo.png)
+![](https://github.com/gabrielCesarino/proffy-react/blob/master/github/logo.PNG)
 
 ![Search Teachers Demo](github/teacher-search.gif)
 
