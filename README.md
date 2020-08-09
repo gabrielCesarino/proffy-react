@@ -34,10 +34,10 @@ After this run bellow yarn command to install all dependencies
 yarn install
 ```
 
-## Contributing
+## :mag_right: Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-## License
+## :green_book: License
 [MIT](https://choosealicense.com/licenses/mit/)
