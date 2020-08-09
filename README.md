@@ -2,9 +2,14 @@
 
 ![](https://github.com/gabrielCesarino/proffy-react/blob/master/github/logo.PNG)
 
+Responsible Web Application in order to connect teachers and students to schedule classes.
+
+![](https://github.com/gabrielCesarino/proffy-react/blob/master/github/index-landingpage.PNG)
+
+
 ![Search Teachers Demo](github/teacher-search.gif)
 
-Responsible Web Application in order to connect teachers and students to schedule classes.
+
 
 
 ## 🚀 Features
