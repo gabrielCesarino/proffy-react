@@ -4,30 +4,40 @@ import whatsappIcon from '../../assets/images/icons/whatsapp.svg'
 
 import './styles.css'
 
-function TeacherItem () {
+export interface Teacher {
+    avatar: string,
+    bio: string,
+    cost: number,
+    id: number,
+    name: string,
+    subject: string,
+    whatsapp: string
+}
+
+interface TeacherItemProps {
+    teacher: Teacher;
+}
+
+const TeacherItem: React.FC<TeacherItemProps> = ({ teacher}) => {
     return(
         <article className="teacher-item">
                     <header>
-                        <img src="https://pbs.twimg.com/profile_images/1290741314481422336/MUwcoT9Z_400x400.jpg" alt="Jenifer Araujo"/>
+                        <img src={teacher.avatar}alt="Teacher name"/>
                         <div>
-                            <strong> Jenifer Araujo </strong>
-                            <span> Artes </span>
+                            <strong> {teacher.name}</strong>
+                            <span> {teacher.subject} </span>
                         </div>
                     </header>
-                    <p>
-                        Instrutora de artes, especialista em pinturas, sendo o seu método favorito a aquarela.
-                        <br /> <br />
-                        Apaixonada por misturar tintas e formas, de forma livre e sem deixar os fundamentos artísticos de lado. Artista hippie.
-                    </p>
+                    <p> {teacher.bio} </p>
                     <footer>
                         <p>
                         Preço/Hora
-                        <strong>R$ 50,00</strong>
+                        <strong>R$ {teacher.cost}</strong>
                         </p>
-                        <button type="button">
+                        <a href={`https://wa.me/${teacher.whatsapp}`}>
                             <img src={whatsappIcon} alt="Whatsapp"/>
                             Entrar em contato
-                        </button>
+                        </a>
                     </footer>
                 </article>
     )
