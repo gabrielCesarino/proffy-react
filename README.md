@@ -26,7 +26,7 @@ Responsible Web Application in order to connect teachers and students to schedul
 
 You need to install Node.js and Yarn first, then in order to clone the project via HTTPS, run this command:
 ```
-git clone https://github.com/LauraBeatris/foodfy.git
+git clone https://github.com/gabrielCesarino/proffy-react
 ```
 After this run bellow yarn command to install all dependencies
 
